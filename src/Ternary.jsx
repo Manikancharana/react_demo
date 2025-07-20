@@ -10,7 +10,7 @@ const Ternary = () => {
 
   return (
     <div style={{ padding: "20px", fontFamily: "Arial" }}>
-      <h2>Check Voting Eligibility</h2>
+      <h1>Check Voting Eligibility</h1>
       <input type="number" value={age} onChange={handleChange} placeholder="Enter age"/>
       <p>
         {age === "" ? "Please enter your age.": age >= 18? "✅ Eligible to vote.": "❌ Not eligible to vote."}
