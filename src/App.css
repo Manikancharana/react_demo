@@ -9,6 +9,10 @@ h1 {
 button:hover {
   background-color: #7090a6;
 }
+.obj1{
+  border: none;
+  
+}
 div{
   border: 2px,#2c3e50,solid;
   border-radius: 10px;

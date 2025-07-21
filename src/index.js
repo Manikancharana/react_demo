@@ -7,6 +7,9 @@ import Screensize from './Screensize';
 import './App.css';
 import Forms from './Forms';
 import Array from './Array';
+import NestedObject from './NestedObject';
+import TempList from './TempList';
+
 
 
 
@@ -20,6 +23,8 @@ root.render(
       <Screensize/>
       <Forms/>
       <Array/>
+      <NestedObject/>
+      <TempList/>
     </>
   </React.StrictMode>
 );

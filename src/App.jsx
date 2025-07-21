@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Userpage from './Userpage';
 
 function Counter() {
   // Declare a new state variable called "count"
@@ -10,6 +11,7 @@ function Counter() {
       <button onClick={() => setCount(count + 1)}>
         Click me
       </button>
+      <Userpage/>
     </div>
   );
 }
