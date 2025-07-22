@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 
-const Employee = () => {
+const Employee = () => {   //using api to add data to the database 
        const[name,setName]=useState("");
        const[role,setRole]=useState("");
        const[email,setEmail]=useState("");

@@ -12,7 +12,9 @@ const obj2={...obj,...obj1}
  console.log(obj2)
 function Spread() {
   return (
-    <div></div>
+    <div><h2>Combine 2 arrays using spread operator</h2>  <br/>
+    <h5>array display in console</h5>
+    </div>
   )
 }
 

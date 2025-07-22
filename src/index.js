@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client'; // Import ReactDOM
-import './App.css';
+// import './App.css';
+import MultiState from './MultiState';
 // import Employee from './Employee';
 // import Circuit from './Circuit';
-import Spread from './Spread';
+// import Spread from './Spread';
 // import App from './App';
 // import Ternary from './Ternary';
 // import Clickevent from './Clickevent';
@@ -31,7 +32,8 @@ root.render(
       <TempList/> */}
      {/* <Employee/> */}
      {/* <Circuit/> */}
-     <Spread/>
+     {/* <Spread/> */}
+     <MultiState/>
     </>
   </React.StrictMode>
 );
