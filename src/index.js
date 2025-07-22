@@ -1,14 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client'; // Import ReactDOM
-import App from './App';
-import Ternary from './Ternary';
-import Clickevent from './Clickevent';
-import Screensize from './Screensize';
 import './App.css';
-import Forms from './Forms';
-import Array from './Array';
-import NestedObject from './NestedObject';
-import TempList from './TempList';
+// import Employee from './Employee';
+// import Circuit from './Circuit';
+import Spread from './Spread';
+// import App from './App';
+// import Ternary from './Ternary';
+// import Clickevent from './Clickevent';
+// import Screensize from './Screensize';
+// import Forms from './Forms';
+// import Array from './Array';
+// import NestedObject from './NestedObject';
+// import TempList from './TempList';
+
 
 
 
@@ -17,14 +21,17 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <>
-      <App />
+      {/* <App />
       <Ternary/>
       <Clickevent/>
       <Screensize/>
       <Forms/>
       <Array/>
       <NestedObject/>
-      <TempList/>
+      <TempList/> */}
+     {/* <Employee/> */}
+     {/* <Circuit/> */}
+     <Spread/>
     </>
   </React.StrictMode>
 );
