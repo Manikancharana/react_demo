@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client'; // Import ReactDOM
+import Diplay from './Diplay';
 // import './App.css';
-import MultiState from './MultiState';
+// import MultiState from './MultiState';
 // import Employee from './Employee';
 // import Circuit from './Circuit';
 // import Spread from './Spread';
@@ -33,7 +34,8 @@ root.render(
      {/* <Employee/> */}
      {/* <Circuit/> */}
      {/* <Spread/> */}
-     <MultiState/>
+     {/* <MultiState/> */}
+     <Diplay/>
     </>
   </React.StrictMode>
 );
